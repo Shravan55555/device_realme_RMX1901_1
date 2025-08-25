@@ -10,6 +10,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.3\-service\.x    u:object_r:hal_fingerprint_default_exec:s0
 /sys/kernel/oppo_display(/.*)?                               u:object_r:sysfs_oppo_display:s0
 
+# LiveDisplay HAL
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay-service\.sdm          u:object_r:hal_lineage_livedisplay_qti_exec:s0
+
 # Goodix Fingerprint device
 /dev/goodix_fp                                                                                           u:object_r:goodix_device:s0
 
